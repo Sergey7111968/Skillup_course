@@ -9,4 +9,4 @@ d=a/b
 print('Sum =',s)
 print('Difference =',r)
 print('Multiply =',p)
-print('Divide',d)
+print('Divide =',d)
