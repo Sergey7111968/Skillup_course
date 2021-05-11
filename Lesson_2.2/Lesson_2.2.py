@@ -3,13 +3,6 @@
 # print("U've finished typing")
 # print('Text is:',user_input)
 
-# print('Start typing below...')
-
-# a=float(input('Enter a: '))
-# b=int(input('Enter b: '))
-
-# print("A + B =", a+b)
-
 # Collections
 # list_1=[1, 2, 3, 4, 5]
 # list_2=['Hello', 'World']
@@ -40,7 +33,7 @@
 #     },
        
 # }
-# # print(dd)
+# print(dd)
 
 # print(dd['F1']['weight'])
 
