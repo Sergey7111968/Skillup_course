@@ -12,6 +12,7 @@ if len(result)==0:
 else:
     print(tuple(result))
     print(*result, sep=', ')
+    print()
 
 # 3 кортежа. Найти уникальные значения для каждого кортежа.
 # 
