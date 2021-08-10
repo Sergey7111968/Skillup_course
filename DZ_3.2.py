@@ -6,6 +6,23 @@
 
 # format()
 
+# Форматированный текст
+
+# def format():
+#     text='''"Don't compare yourself with anyone in this world...\nif you do so, you are insulting yourself."\n\t\t\t\t\t\t\tBill Gates'''
+#     print(text)
+
+# format()
+
+def format_phase(t1, t2):
+    t3= f'"{t1}"'+ ('\n{:>60}'.format(t2))
+    return(t3)
+
+text="Don't compare yourself with anyone in this world...\nif you do so, you are insulting yourself."
+autor="Bill Gates"
+
+print(format_phase(text, autor))
+
 # Четные числа
 
 # print('Enter two number through space:')
@@ -50,8 +67,9 @@
 # def min_five():
 #     print(min(number_1, number_2, number_3, number_4, number_5))
 
-
 # min_five()
+
+
 
 # Произведение чисел в диапазоне
 
@@ -78,15 +96,15 @@
         
 # count_number()
 
-# Палидром
+# Палиндром
 
-def palindrom():
-    print('is the number a palindrome? Enter number :')
-    number=input()
-    if number[:]==number[::-1]:
-        print('True')
-    else:
-        print('False')
+# def palindrom():
+#     print('is the number a palindrome? Enter number :')
+#     number=input()
+#     if number[:]==number[::-1]:
+#         print('True')
+#     else:
+#         print('False')
 
-palindrom()
+# palindrom()
 

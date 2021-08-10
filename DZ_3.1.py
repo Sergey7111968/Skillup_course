@@ -1,4 +1,4 @@
-# Произведение списка целых чисел
+# 1. Произведение списка целых чисел
 
 import random
 list_1 = [random.randint(0, 10) for i in range(10)]
@@ -12,14 +12,14 @@ print(list_1)
  
 # print(multiply(list_1))
 
-# Нахождение минимума списка
+# 2. Нахождение минимума списка
 
 # def minimum(list_1):
 #     print(min(list_1))
 
 # minimum(list_1)
 
-# Количество простых чисел
+# 3. Количество простых чисел
 
 # def simple_number(list_1):
 #     count=0
@@ -31,7 +31,7 @@ print(list_1)
     
 # simple_number(list_1)
 
-# Количество удаленных елементов
+# 4. Количество удаленных елементов
 
 # n=int(input('Enter the number :')) 
 
@@ -46,7 +46,7 @@ print(list_1)
     
 # delete_number(list_1)
 
-# Сумма списков целых чисел
+# 5. Сумма списков целых чисел
 
 # import random
 
@@ -59,10 +59,11 @@ print(list_1)
 # sum_list(list_1, list_2)
 
 
-# Степень каждого елемента
+# 6. Степень каждого елемента
 
 n=int(input('Enter the degree :'))
 list_3=[]
+
 def degree(list_1, n):
     for i in list_1:
          i=i**n

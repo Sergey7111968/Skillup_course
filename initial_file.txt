@@ -1,2 +1,1 @@
-This is my first commit
-hello
+& C:/Python_391/python.exe c:/Users/Lenovo/Code/Skillup_course/Lesson_3.4_zoom_3.py123
